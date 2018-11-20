@@ -11,6 +11,9 @@ function ninjaBabySelector(){
 function divSelector(){
   return $('div .pics');
 }
+function firstListItem(){
+  return $('ul li #pic-list')
+}
 /*
 + Write a function `divSelector` that does not accept any parameters. The function
 should use a class selector to return the two divs with the class `pics`.

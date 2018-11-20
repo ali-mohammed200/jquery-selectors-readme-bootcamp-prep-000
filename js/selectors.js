@@ -12,7 +12,7 @@ function divSelector(){
   return $('.pics');
 }
 function firstListItem(){
-  return $('ul #pic-list li:first-child')
+  return $('#pic-list li:first-child')
 }
 /*
 + Write a function `divSelector` that does not accept any parameters. The function

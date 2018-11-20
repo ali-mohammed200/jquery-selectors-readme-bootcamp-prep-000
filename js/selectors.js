@@ -3,7 +3,7 @@ function paragraphSelector(){
   return $('p');
 }
 function lastImageSelector(){
-  return $('img:last-child')
+  return $('img:last')
 }
 /*
 + Write a function `lastImageSelector` that does not accept any parameters. The

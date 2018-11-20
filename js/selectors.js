@@ -1,14 +1,9 @@
 // declare your functions here...
-
+function paragraphSelector(){
+  return $('p');
+}
 
 /*
-## Instructions
-
-If you take a look at `js/selectors.js`, you'll notice we don't have a document
-ready. Because we're just going to practice writing selectors, and not using the
-selectors to do anything quite yet, we don't need to worry about browser
-interaction.
-
 + Write a function `paragraphSelector` that does not accept any parameters. The
 function should use an element selector to select the `p` tags in `index.html`
 and return those elements. (Note that we're using the plural because the
